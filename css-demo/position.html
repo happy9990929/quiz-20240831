@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        height: 1200px;
+      }
+
+      main {
+        font-size: 24px;
+        line-height: 2;
+        padding: 60px;
+      }
+
+      .fixed-menu {
+        width: 100%;
+        background-color: #333;
+        color: white;
+      }
+
+      .fixed-menu nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding: 1rem 0;
+      }
+
+      .fixed-menu nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.3s;
+      }
+
+      .fixed-menu nav ul li a:hover {
+        background-color: #555;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      .card {
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+        flex-shrink: 0;
+        margin-right: 100px;
+      }
+
+      .label {
+        background-color: #ff6347;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      h2 {
+        margin: 20px 0;
+        font-size: 24px;
+        color: #333;
+      }
+
+      p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      任務：請使用 CSS 中的 `relative`、`absolute` 和 `fixed` 定位屬性來完成樣式設計。
+      1. 將選單固定於頂部
+      2. 將卡片的 “NEW” tag 使用定位放置卡片右上角，並壓在圖片上
+     -->
+    <header class="fixed-menu">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <div class="card">
+          <span class="label">New</span>
+          <img src="https://picsum.photos/300/300?random=1">
+          <h2>Card Title</h2>
+          <p>This is a simple card with a label positioned at the top right corner.</p>
+        </div>
+
+        <div>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore placeat accusantium modi animi ut dolorem quis nihil blanditiis dicta iste odit ab, cumque, voluptatem eum debitis. Veniam, at eligendi.
+          Quaerat laborum sit voluptates est vitae? Atque, dolore numquam. Quia ex mollitia totam blanditiis fuga accusamus ullam consequuntur quasi, similique nemo dignissimos! Totam tempora, placeat laborum officia quasi labore odio?
+          Necessitatibus repudiandae maiores, ullam ut odit amet sit quibusdam odio, consequuntur velit dicta dolores nesciunt culpa a blanditiis placeat laboriosam. Cumque amet voluptatem sit blanditiis et, quas corporis consectetur iusto.
+          Totam accusantium ab esse saepe reiciendis doloribus possimus numquam eos pariatur? Aliquam ea veniam similique ipsum commodi nostrum perferendis quas non velit sunt, quod quos doloribus? Minima officia ut error.
+          Eveniet aspernatur, ab similique recusandae enim consectetur atque dolore sed laborum praesentium consequuntur natus omnis. Voluptatibus, nulla minima! Quam qui, iusto debitis quod magni molestiae numquam odit sunt in blanditiis!
+          Accusantium repellendus aliquam, eius cupiditate veritatis enim doloribus iure neque et, molestias tempora tempore omnis. Recusandae quo asperiores vel accusantium ipsa ipsam dolore impedit vitae deleniti totam! Consequatur, sunt earum!
+          Odio dignissimos maiores, dicta a sequi est provident corporis cumque. Quaerat eaque odio fugit, tenetur saepe quo nisi doloribus odit quasi asperiores corporis dolorum ipsam deleniti expedita culpa sapiente sed.
+          Expedita consequatur modi provident commodi dicta assumenda, deleniti error incidunt animi nesciunt distinctio tempore voluptatum perferendis tempora officia dolores sit, facere maiores esse inventore sint reiciendis delectus! Eligendi, praesentium laborum.
+          Facere voluptatem, eaque qui ea doloribus aut reiciendis non, tenetur distinctio inventore unde voluptates. Quaerat magni ex est quo, sunt accusantium, veritatis commodi delectus enim tempora reprehenderit doloribus quis consequuntur!
+          Accusamus optio perspiciatis debitis quo! Corrupti, facilis unde eum ad sapiente voluptate nemo incidunt molestiae quos maxime provident animi. Repudiandae autem error adipisci eius aliquam dicta, quia aut dolores reiciendis?
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

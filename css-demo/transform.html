@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transform 2D變換</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        background-color: lightgray;
+        width: 100px;
+        height: 100px;
+        margin: 0 50px;
+        line-height: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+    任務：請根據以下要求，編寫 CSS 代碼，實現方塊觸發不同的變換效果
+      移動 (translate)：當滑鼠懸停在方塊上時，將該方塊向右移動 50 像素，向下移動 30 像素
+      縮放 (scale)：當滑鼠懸停在方塊上時，將該方塊縮放到原來大小的 1.5 倍
+      旋轉 (rotate)：當滑鼠懸停在方塊上時，將該方塊順時針旋轉 45 度
+      傾斜 (skew)：當滑鼠懸停在方塊上時，將該方塊在水平方向傾斜 20 度
+      多重變換 (Multiple Transforms)：當滑鼠懸停在方塊上時，同時向右移動 50 像素，向下移動 30 像素、順時針旋轉 30 度、縮放到原來大小的 1.2 倍
+    -->
+    <div class="translate-box">Translate</div>
+    <div class="scale-box">Scale</div>
+    <div class="rotate-box">Rotate</div>
+    <div class="skew-box">Skew</div>
+    <div class="multiple-transform-box">Multiple</div>
+  </body>
+</html>

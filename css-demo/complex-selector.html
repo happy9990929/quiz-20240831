@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>複合選擇器</title>
+    <style>
+      body {
+        font-size: 21px;
+        font-family: 'Microsoft JhengHei', sans-serif;
+        line-height: 1.5;
+      }
+
+      .title {
+        color: #2e2e2e;
+      }
+
+      .question {
+        font-size: 21px;
+        color: #2e2e2e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">複合選擇器</h1>
+    <h2 class="question">1. 針對 class="box important" 的元素，將顏色設定為 red</h2>
+    <div class="box important">
+      <p>這是重要的內容。</p>
+    </div>
+
+    <div class="box">
+      <p>這是普通的內容。</p>
+    </div>
+    <hr />
+
+    <h2 class="question">2. 同時針對 h1 和 h2 設定，將文字顏色為 skyblue</h2>
+    <h1>標題一</h1>
+    <h2>標題二</h2>
+    <h3>標題三</h3>
+    <hr />
+
+    <h2 class="question">3. 針對 class="menu" 內的所有 a 連結，設置顏色為 green，並移除文字底線</h3>
+    <ul class="menu">
+      <li>
+        <a href="#">關於我們</a>
+      </li>
+      <li>
+        <a href="#">產品介紹</a>
+      </li>
+      <li>
+        <a href="#">聯絡我們</a>
+      </li>
+    </ul>
+  </body>
+</html>
