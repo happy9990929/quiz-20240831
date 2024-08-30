@@ -3,56 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>卡片佈局測驗</title>
+    <title>圖文排列測驗</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>RWD 卡片佈局</h1>
+    <h1>RWD 圖文排列</h1>
     <!--
-    <h2>任務：在大螢幕時將卡片排列成三個一排</h2>
+    <h2>任務：圖文排列，小螢幕時呈現直版，大螢幕時呈現左右排版，且圖文寬度比為 40:60</h2>
     <ul>
       <li>圖片設置為最大寬度100%，讓小螢幕時圖片不破版</li>
-      <li>.container 在最小寬度 768px 時，flex-direction 調整成一列</li>
-      <li>.card-box 在最小寬度 768px 時，寬度調整為 30%</li>
+      <li>.container 在最小寬度 768px 時，排列調整成一列</li>
+      <li>.card-image 寬度設定為 40%</li>
+      <li>.card-text 寬度設定為 60%</li>
     </ul>
     -->
 
     <div class="container">
-      <div class="card-box">
-        <div class="card">
-          <img src="https://picsum.photos/800/500?random=1" alt="" />
-          <h2>青花瓷</h2>
-          <p>
-            素胚勾勒出青花筆鋒濃轉淡<br />
-            瓶身描繪的牡丹一如妳初妝<br />
-            冉冉檀香透過窗心事我了然<br />
-            宣紙上走筆至此擱一半
-          </p>
-        </div>
+      <div class="card-box card-image">
+        <img src="https://picsum.photos/800/800?random=1" />
       </div>
-      <div class="card-box">
-        <div class="card">
-          <img src="https://picsum.photos/800/500?random=2" alt="" />
-          <h2>蘭亭序</h2>
+      <div class="card-box card-text">
+        <h2>三隻小豬</h2>
           <p>
-            無關風月 我題序等妳回<br />
-            懸筆一絕 那岸邊浪千疊<br />
-            情字何解 怎落筆都不對<br />
-            而我獨缺 妳一生的了解
+            三隻小豬長大了，決定要離開家裡獨立生活，不過，為了不要被大野狼吃掉，他們決定自己蓋房子。豬大哥說：「我用稻草蓋房子，一天就蓋好了。」豬二哥說：「我用木頭蓋房子，三天就蓋好了。」豬小弟說：「雖然要花十天，我還是要用磚頭蓋房子。」<br><br>
+            這一天，大野狼來到稻草屋前大叫：「小豬，快讓我進去。」豬大哥說：「我不要，你會把我吃掉。」大野狼說：「那我就把你的房子吹倒，呼～呼～」，一下子豬大哥的稻草屋就被吹倒，豬大哥趕緊跑到豬二哥家裡。接著，大野狼來到小木屋前大叫：「快開門讓我進去。」兩隻小豬說：「我們才不要開門，你會吃掉我們。」大野狼說：「好，看我用力吹倒你的房子，呼～呼～呼～」豬二哥的小木屋也被吹倒，兩隻小豬趕緊跑到豬小弟家裡。<br><br>
+            最後，大野狼來到磚頭屋前大叫：「快讓我進去。」三隻小豬說：「不開，不開，我們不要變成你的晚餐。」大野狼說：「等我吹倒你的房子，我就把你們吃掉，呼～呼～呼～呼～」大野狼怎麼吹也吹不倒磚頭屋，最後還因為太用力，腳一滑跌到山下，屋裡的三隻小豬高興地在屋子裡唱歌跳舞，豬小弟說：「哥哥，有了堅固的磚頭屋，我們再也不用怕大野狼了。」
           </p>
-        </div>
-      </div>
-      <div class="card-box">
-        <div class="card">
-          <img src="https://picsum.photos/800/500?random=3" alt="" />
-          <h2>紅塵客棧</h2>
-          <p>
-            天涯 的盡頭是風沙<br />
-            紅塵 的故事叫牽掛<br />
-            封刀隱沒在尋常人家 東籬下<br />
-            閒雲 野鶴 古剎
-          </p>
-        </div>
       </div>
     </div>
   </body>
